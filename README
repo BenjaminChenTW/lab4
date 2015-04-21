@@ -1,0 +1,15 @@
+A:
+0000000000400624 T _Z7averagePdRd
+0000000000400652 T _Z7averageif
+                 U _ZNSt8ios_base4InitC1Ev@@GLIBCXX_3.4
+                 U _ZNSt8ios_base4InitD1Ev@@GLIBCXX_3.4
+B:
+1 8
+4 8
+4 8
+8 8
+
+because
+a, b, c, d have different prototype, size of them will be different too.
+but
+pa, pb, pc, pd are all pointer, size of them will be the same.
